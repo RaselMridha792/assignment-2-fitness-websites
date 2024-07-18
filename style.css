@@ -20,6 +20,8 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background: rgb(0, 0, 0);
+    color: white;
 }
 
 /* shared style  */
@@ -64,6 +66,7 @@ body {
     padding: 8px 20px;
     margin-right: 27px;
     border-radius: 46px;
+    margin: 4px;
 }
 
 .home {
@@ -214,10 +217,30 @@ body {
     font-weight: 900;
 }
 
+/* your habbit section start here  */
+.your-habbit-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+.habbit-image-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.image-child img{
+    height: 180px;
+    width: 180px;
+    background: red;
+    border-radius: 50%;
+}
 
 /* media query breackpoint design start here  */
 
 @media screen and (max-width: 576px) {
+    /* header section responsive  */
     .banner-container {
         flex-direction: column;
         gap: 5px;
@@ -238,6 +261,33 @@ body {
     .hamburger-icon {
         display: block;
     }
+    .first-transparent-box{
+        position: relative;
+        right: 20px;
+        top: 480px;
+    }
+    .second-transparent-box{
+        position: relative;
+        top: -500px;
+        left: 220px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+/* header section responsive  */
+    .banner-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .nav-menu-container{
+        margin: 0px 20px;
+        margin-bottom: 51px;
+    }
+    .banner-title{
+        font-size: 3.25rem;
+        width: 300px;
+    }
+
     .first-transparent-box{
         position: relative;
         right: 20px;
