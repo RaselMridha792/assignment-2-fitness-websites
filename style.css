@@ -33,7 +33,7 @@ body {
 .shape-text {
     font-family: "Dancing Script", cursive;
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 /* header section style  */
@@ -41,9 +41,15 @@ body {
 .header-container {
     max-width: 1440px;
     height: 100%;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(84, 84, 84, 0) 100%); */
     background-image: linear-gradient(rgb(22, 22, 22), rgb(35, 35, 35), rgb(9, 9, 9));
-    /* background: rgb(0, 0, 0); */
+}
+
+/* nav menu section  */
+
+.hamburger-icon {
+    height: 24px;
+    width: 24px;
+    display: none;
 }
 
 .nav-menu-container {
@@ -59,11 +65,13 @@ body {
     margin-right: 27px;
     border-radius: 46px;
 }
+
 .home {
     background-color: rgb(230, 83, 60);
     margin: 4px;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     background-color: rgb(230, 83, 60);
 }
 
@@ -81,7 +89,6 @@ body {
     color: white;
 }
 
-/* nav menu section  */
 
 .site-title {
     color: rgb(230, 83, 60);
@@ -91,7 +98,7 @@ body {
     font-weight: 800;
     line-height: 120%;
     letter-spacing: 0%;
-    
+
 }
 
 /* banner section design  */
@@ -107,9 +114,9 @@ body {
     height: 100%;
 }
 
-.banner-img-container img {
-    width: 349px;
-    height: 580px;
+.banner-image img {
+    height: 100%;
+    width: 100%;
 }
 
 .banner-title {
@@ -128,10 +135,11 @@ body {
 }
 
 /* button section  */
-.banner-btn{
+.banner-btn {
     display: flex;
     gap: 24px;
 }
+
 .primary-btn,
 .secondary-btn {
     background-color: rgb(230, 83, 60);
@@ -207,3 +215,37 @@ body {
 }
 
 
+/* media query breackpoint design start here  */
+
+@media screen and (max-width: 576px) {
+    .banner-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .nav-menu-container{
+        margin: 0px 20px;
+        margin-bottom: 51px;
+    }
+    .banner-title{
+        font-size: 3.25rem;
+        width: 300px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+    .first-transparent-box{
+        position: relative;
+        right: 20px;
+        top: 480px;
+    }
+    .second-transparent-box{
+        position: relative;
+        top: -500px;
+        left: 220px;
+    }
+}
