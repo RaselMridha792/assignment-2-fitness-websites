@@ -32,6 +32,8 @@ body {
 
 .shape-text {
     font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-size: 5rem;
 }
 
 /* header section style  */
@@ -39,26 +41,36 @@ body {
 .header-container {
     max-width: 1440px;
     height: 100%;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-    background: rgb(0, 0, 0);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(84, 84, 84, 0) 100%); */
+    background-image: linear-gradient(rgb(22, 22, 22), rgb(35, 35, 35), rgb(9, 9, 9));
+    /* background: rgb(0, 0, 0); */
 }
 
 .nav-menu-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 42px;
+    padding-top: 57px;
 }
 
 .nav-item {
     list-style: none;
-    padding: 4px;
-    margin-right: 47px;
+    padding: 8px 20px;
+    margin-right: 27px;
+    border-radius: 46px;
+}
+.home {
+    background-color: rgb(230, 83, 60);
+    margin: 4px;
+}
+.nav-item:hover{
+    background-color: rgb(230, 83, 60);
 }
 
 .nav-items ul {
     display: flex;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
 }
 
 .nav-item a {
@@ -74,12 +86,12 @@ body {
 .site-title {
     color: rgb(230, 83, 60);
     font-family: Inter;
-    font-size: 2.25rem;
+    font-style: italic;
+    font-size: 36px;
     font-weight: 800;
-}
-
-.home:active {
-    background-color: brown;
+    line-height: 120%;
+    letter-spacing: 0%;
+    
 }
 
 /* banner section design  */
@@ -103,7 +115,7 @@ body {
 .banner-title {
     color: rgb(255, 255, 255);
     font-size: 4.875rem;
-    font-weight: 900;
+    font-weight: 800;
     /* margin-top: 90px; */
 }
 
@@ -193,3 +205,5 @@ body {
     font-size: 40px;
     font-weight: 900;
 }
+
+
