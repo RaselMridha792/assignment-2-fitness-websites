@@ -1,0 +1,195 @@
+/* for font family  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* .dancing-script-<uniquifier> {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+*/
+
+/* shared style  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* shared style  */
+
+.disply-sizing {
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+.shape-text {
+    font-family: "Dancing Script", cursive;
+}
+
+/* header section style  */
+
+.header-container {
+    max-width: 1440px;
+    height: 100%;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    background: rgb(0, 0, 0);
+}
+
+.nav-menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 42px;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 4px;
+    margin-right: 47px;
+}
+
+.nav-items ul {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: white;
+}
+
+/* nav menu section  */
+
+.site-title {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.home:active {
+    background-color: brown;
+}
+
+/* banner section design  */
+.banner-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 167px;
+}
+
+.banner-content {
+    width: 520px;
+    height: 100%;
+}
+
+.banner-img-container img {
+    width: 349px;
+    height: 580px;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 4.875rem;
+    font-weight: 900;
+    /* margin-top: 90px; */
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 28px 0px;
+}
+
+/* button section  */
+.banner-btn{
+    display: flex;
+    gap: 24px;
+}
+.primary-btn,
+.secondary-btn {
+    background-color: rgb(230, 83, 60);
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600px;
+    color: white;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* image size boxes style  */
+.first-transparent-box,
+.second-transparent-box {
+    position: absolute;
+    height: 96px;
+    width: 206px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+    top: 510px;
+    right: 400px;
+}
+
+.second-transparent-box {
+    background: rgba(255, 255, 255, 0.1);
+    top: 250px;
+    right: 40px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-right: 12px;
+    margin-left: 23px;
+}
+
+.transparent-text {
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.transparent-text-2 {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.transparent-text3 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+}
