@@ -24,6 +24,13 @@ body {
     color: white;
 }
 
+.paragraph {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* shared style  */
 
 .disply-sizing {
@@ -130,10 +137,6 @@ body {
 }
 
 .banner-description {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
     margin: 28px 0px;
 }
 
@@ -218,38 +221,103 @@ body {
 }
 
 /* your habbit section start here  */
-.your-habbit-container{
+.your-habbit-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 100px;
+    margin: 100px 0px;
 }
-.habbit-image-container{
+
+.habbit-image-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-top: 54px;
 }
-.image-child img{
+
+.image-child img {
     height: 180px;
     width: 180px;
     background: red;
     border-radius: 50%;
 }
 
+.habbit-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 14px 0px;
+}
+
+.habbit-description {
+    width: 671px;
+    margin: 14px 0px;
+}
+
+.habbit-image-container h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 6px 0px;
+}
+
+/* run extra section start here  */
+.run-extra-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    border-radius: 18px;
+    width: 100%;
+    height: 400px;
+    background: rgb(34, 34, 34);
+}
+
+.run-extra-content {
+    padding-left: 50px;
+    width: 50%;
+}
+
+.run-extra-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.run-extra-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 28px 0px;
+}
+
+.run-extra-img img {
+    width: 95%;
+    width: 366px;
+    height: 312px;
+    border-radius: 16px;
+}
+
 /* media query breackpoint design start here  */
 
 @media screen and (max-width: 576px) {
+
     /* header section responsive  */
     .banner-container {
         flex-direction: column;
         gap: 5px;
     }
-    .nav-menu-container{
+    .banner-img-container{
+        margin-bottom: 0px;
+    }
+
+    .nav-menu-container {
         margin: 0px 20px;
         margin-bottom: 51px;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 3.25rem;
         width: 300px;
     }
@@ -261,39 +329,57 @@ body {
     .hamburger-icon {
         display: block;
     }
-    .first-transparent-box{
+
+    .first-transparent-box {
         position: relative;
         right: 20px;
         top: 480px;
     }
-    .second-transparent-box{
+
+    .second-transparent-box {
         position: relative;
         top: -500px;
         left: 220px;
     }
+
+    /* your habbit section responsive design  */
+    .your-habbit-container{
+        margin-top: 0px;
+    }
+    .habbit-image-container {
+        grid-template-columns: repeat(1, 1fr);
+        /* margin-top: 5px; */
+    }
+    .habbit-description {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
-/* header section responsive  */
+
+    /* header section responsive  */
     .banner-container {
         flex-direction: column;
         gap: 5px;
     }
-    .nav-menu-container{
+
+    .nav-menu-container {
         margin: 0px 20px;
         margin-bottom: 51px;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 3.25rem;
         width: 300px;
     }
 
-    .first-transparent-box{
+    .first-transparent-box {
         position: relative;
         right: 20px;
         top: 480px;
     }
-    .second-transparent-box{
+
+    .second-transparent-box {
         position: relative;
         top: -500px;
         left: 220px;
