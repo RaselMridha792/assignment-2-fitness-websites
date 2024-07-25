@@ -67,11 +67,6 @@
         padding: 33px 33px 24px 33px;
         width: 100%;
     }
-
-    .run-extra-description {
-        /* text-align: left; */
-    }
-
     .run-extra-btn {
         width: 100%;
         height: 54px;
@@ -81,15 +76,21 @@
     }
     .run-extra-second-img{
         display: block;
+        object-fit: cover;
+        /* for the fit image in right position  */
+        object-position: 100% 0%;
+    }
+    .run-extra-img{
+        margin: 33px;
     }
 
     .run-extra-img img{
-        width: 287px;
-        height: 170px;
+        /* width: 450px; */
+        width: 100%;
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
 
     /* header section responsive  */
     .banner-container {
@@ -117,5 +118,35 @@
         position: relative;
         top: -500px;
         left: 220px;
+    }
+    /* your habbit section start here  */
+    .habbit-image-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .your-habbit-container {
+        margin-top: 0px;
+    }
+    .habbit-description {
+        width: 500px;
+    }
+
+
+    /* run extra section start here  */
+    .run-extra-container {
+        width: 90%;
+        height: 100%;
+        margin: 30px;
+        gap: 38px;
+    }
+    .run-extra-title{
+        font-size: 2.25rem;
+    }
+    .run-extra-content{
+        padding: 30px;
+    }
+    .run-extra-img img{
+        width: 256px;
+        height: 300px;
+        object-fit: cover;
     }
 }
