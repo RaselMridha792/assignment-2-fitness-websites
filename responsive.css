@@ -67,26 +67,54 @@
         padding: 33px 33px 24px 33px;
         width: 100%;
     }
+
     .run-extra-btn {
         width: 100%;
         height: 54px;
     }
-    .run-extra-first-img{
+
+    .run-extra-first-img {
         display: none;
     }
-    .run-extra-second-img{
+
+    .run-extra-second-img {
         display: block;
         object-fit: cover;
         /* for the fit image in right position  */
         object-position: 100% 0%;
     }
-    .run-extra-img{
+
+    .run-extra-img {
         margin: 33px;
     }
 
-    .run-extra-img img{
+    .run-extra-img img {
         /* width: 450px; */
         width: 100%;
+    }
+
+    /* bmi section design  */
+    .bmi-text {
+        padding: 20px;
+    }
+
+    .bmi-child {
+        flex-direction: column;
+        gap: 42px;
+        margin-left: 20px;
+    }
+
+    .bmi-second-side input,
+    #gender {
+        width: 250px;
+        height: 48px;
+        margin: 5px;
+    }
+    .input-5th{
+        width: 515px;
+    }
+    .bmi-text p{
+        width: 450px;
     }
 }
 
@@ -119,13 +147,16 @@
         top: -500px;
         left: 220px;
     }
+
     /* your habbit section start here  */
     .habbit-image-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .your-habbit-container {
         margin-top: 0px;
     }
+
     .habbit-description {
         width: 500px;
     }
@@ -138,15 +169,28 @@
         margin: 30px;
         gap: 38px;
     }
-    .run-extra-title{
+
+    .run-extra-title {
         font-size: 2.25rem;
     }
-    .run-extra-content{
+
+    .run-extra-content {
         padding: 30px;
     }
-    .run-extra-img img{
+
+    .run-extra-img img {
         width: 256px;
         height: 300px;
         object-fit: cover;
     }
+        /* bmi section design  */
+        .bmi-text {
+            padding: 20px;
+        }
+    
+        .bmi-child {
+            flex-direction: column;
+            gap: 42px;
+            margin-left: 20px;
+        }
 }
