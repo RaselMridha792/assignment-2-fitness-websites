@@ -31,7 +31,6 @@ body {
     font-weight: 400;
 }
 
-/* shared style  */
 
 .disply-sizing {
     max-width: 1060px;
@@ -44,6 +43,8 @@ body {
     font-weight: 400;
     font-size: 4rem;
 }
+
+/* shared style  */
 
 /* header section style  */
 
@@ -236,10 +237,11 @@ body {
     gap: 45px;
 }
 
-.image-child{
+.image-child {
     width: 231px;
     height: 274px;
 }
+
 .image-child img {
     height: 180px;
     width: 180px;
@@ -302,8 +304,145 @@ body {
     height: 312px;
     border-radius: 16px;
 }
-.run-extra-second-img{
+
+.run-extra-second-img {
     display: none;
 }
-/* media query breackpoint design start here  */
 
+/* training section start here  */
+.training-container {
+    height: 581px;
+    border: 2px solid white;
+    margin: 100px 0px;
+}
+
+.training-content {
+    width: 671PX;
+}
+
+.training-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.training-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 58px;
+
+}
+
+.training-box {
+    width: 100%;
+    height: 200px;
+    border: 2px solid aquamarine;
+    /* background-image: linear-gradient(180deg, rgba(0, 213, 255, 0.151), transparent), url("./images/exercise6.jpg"); */
+    background-repeat: no-repeat;
+}
+
+.training-images1 {}
+
+/* bmi section start here  */
+.bmi-text {
+    margin: 80px 0px;
+    width: 671px;
+    padding-left: 195px;
+}
+
+.bmi-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.bmi-container {
+    max-width: 1440px;
+    height: 487px;
+    background: rgb(34, 34, 34);
+    margin: 100px 0px;
+
+}
+
+
+.bmi-first-side table,
+tr,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 15px 20px;
+}
+
+.bmi-table thead {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bmi-cal-text {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.bmi-child-container {
+    height: 100%;
+    border: 0.1px solid rgba(0, 0, 0, 0);
+}
+
+.bmi-child {
+    margin-top: 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 150px;
+}
+
+/* bmi second side design  */
+.bmi-second-side {
+    width: 577px;
+}
+
+.bmi-second-side input,
+#gender {
+    width: 270px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5px;
+    border: none;
+
+}
+
+.input-5th {
+    display: block;
+    height: 48px;
+    width: 555px;
+    margin: 5px 0px 34px 5px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.bmi-second-side input,
+select {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.second-side-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 14px;
+
+}
+
+.second-side-content p {
+    margin-bottom: 34px;
+}
