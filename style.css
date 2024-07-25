@@ -286,19 +286,22 @@ body {
 
 .run-extra-description {
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 16px;
     font-weight: 400;
     margin: 28px 0px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
 }
 
 .run-extra-img img {
-    width: 95%;
     width: 366px;
     height: 312px;
     border-radius: 16px;
 }
-
+.run-extra-second-img{
+    display: none;
+}
 /* media query breackpoint design start here  */
 
 @media screen and (max-width: 576px) {
@@ -308,7 +311,8 @@ body {
         flex-direction: column;
         gap: 5px;
     }
-    .banner-img-container{
+
+    .banner-img-container {
         margin-bottom: 0px;
     }
 
@@ -343,15 +347,51 @@ body {
     }
 
     /* your habbit section responsive design  */
-    .your-habbit-container{
+    .your-habbit-container {
         margin-top: 0px;
     }
+
     .habbit-image-container {
         grid-template-columns: repeat(1, 1fr);
         /* margin-top: 5px; */
     }
+
     .habbit-description {
         width: 100%;
+    }
+
+    /* run extra section  */
+    .run-extra-container {
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        margin: 20px;
+        gap: 31px;
+    }
+
+    .run-extra-content {
+        padding: 33px 33px 24px 33px;
+        width: 100%;
+    }
+
+    .run-extra-description {
+        /* text-align: left; */
+    }
+
+    .run-extra-btn {
+        width: 100%;
+        height: 54px;
+    }
+    .run-extra-first-img{
+        display: none;
+    }
+    .run-extra-second-img{
+        display: block;
+    }
+
+    .run-extra-img img{
+        width: 287px;
+        height: 170px;
     }
 }
 
