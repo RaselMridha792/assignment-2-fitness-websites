@@ -151,7 +151,19 @@
     .training-images5{
         width: 230px;
     }
+    /* extra section design start here  */
+
+    .plan-cards-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        /* margin-top: 50px; */
+        margin: 50px 50px;
     
+    }
+    .plans-content h1{
+        font-size: 2rem;
+        font-weight: 800;
+     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
