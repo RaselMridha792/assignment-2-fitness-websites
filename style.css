@@ -596,3 +596,76 @@ footer {
     text-align: center;
     padding-bottom: 36px;
 }
+
+/* extra section design start here  */
+ .flexible-plan-child{
+    margin: 100px 0px;
+ }
+ .plans-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ }
+ .plans-content h1{
+    font-size: 3.375rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+ }
+.plan-cards-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+ .plan-card{
+    width: 330px;
+    height: 440px;
+    border: 1px solid #7C7C7C;
+    background-color: #2B2B2B;
+    text-align: center;
+ }
+ .plan-amount{
+    font-size: 3rem;
+ }
+
+ .plan-name p{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+ }
+ .plan-name h1{
+    color: rgb(255, 72, 44);
+    margin-bottom: 20px;
+ }
+
+ .plan-days{
+    background-color: #393937;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 0px;
+ }
+ .checkmark-list{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+ }
+ .plan-card ul{
+    margin-left: 35px;
+    margin-top: 30px;
+ }
+ .plan-card li{
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+    display: flex;
+ }
+ .get-started{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+ }

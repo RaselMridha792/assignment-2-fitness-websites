@@ -151,6 +151,7 @@
     .training-images5{
         width: 230px;
     }
+    
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -260,4 +261,16 @@
     .training-container {
         margin: 100px 30px;
     }
+
+    /* extra section design start here  */
+    .plan-cards-container{
+        grid-template-columns: repeat(2, 1fr);
+        /* margin-top: 50px; */
+        margin: 50px 30px;
+    
+    }
+    .plans-content h1{
+        font-size: 2rem;
+        font-weight: 800;
+     }
 }
