@@ -134,6 +134,23 @@
         margin-left: 20px;
         gap: 30px;
     }
+
+    /* exercise section start here  */
+    .training-container{
+        margin: 50px 20px;
+    }
+    .training-images3, .training-images6{
+        display: none;
+    }
+    .training-images4, .training-images2{
+        width: 250px;
+    }
+    .training-content{
+        width: 450px;
+    }
+    .training-images5{
+        width: 230px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -224,5 +241,23 @@
         flex-direction: column;
         margin-left: 50px;
         gap: 30px;
+    }
+
+    /* exercise section design here  */
+    .training-images1{
+        width: 250px;
+    }
+    .training-images2{
+        width: 300px;
+        background-position: center;
+    }
+    .training-images4{
+        width: 300px
+    }
+    .training-images6{
+        width: 250px;
+    }
+    .training-container {
+        margin: 100px 30px;
     }
 }

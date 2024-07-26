@@ -311,13 +311,7 @@ body {
 
 /* training section start here  */
 .training-container {
-    height: 581px;
-    border: 2px solid white;
     margin: 100px 0px;
-}
-
-.training-content {
-    width: 671PX;
 }
 
 .training-content h1 {
@@ -326,20 +320,53 @@ body {
     font-weight: 900;
     margin-bottom: 14px;
 }
+.training-content{
+    width: 671px;
+    margin-bottom: 50px;
+}
 
 .training-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 58px;
 
 }
 
 .training-box {
-    width: 100%;
-    height: 200px;
-    border: 2px solid aquamarine;
-    /* background-image: linear-gradient(180deg, rgba(0, 213, 255, 0.151), transparent), url("./images/exercise6.jpg"); */
-    background-repeat: no-repeat;
+    height: 220px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.training-images1 {
+    width: 230px;
+    background-image: linear-gradient(90deg, rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url("./images/exercise1.jpg");
+}
+
+.training-images2 {
+    width: 600px;
+    background-image: linear-gradient(90deg, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url("./images/exercise2.png");
+
+}
+
+.training-images3 {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/exercise3.png");
+    background-position: center;
+}
+
+.training-images4 {
+    width: 435px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/exercise4.png");
+}
+
+.training-images6 {
+    width: 320px;
+    background-image: linear-gradient(90deg, rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url("./images/exercise6.jpg");
+}
+
+.training-images5 {
+    background-image: linear-gradient(90deg, rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url("./images/exercise5.jpg");
 }
 
 /* bmi section start here  */
@@ -554,6 +581,7 @@ footer {
     font-size: 1.43rem;
     font-weight: 400;
 }
+
 .footer-hr {
     height: 0px;
     /* background: rgb(185, 185, 185); */
