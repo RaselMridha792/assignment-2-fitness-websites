@@ -372,7 +372,7 @@ body {
 /* bmi section start here  */
 .bmi-text {
     margin: 80px 0px;
-    width: 671px;
+    /* width: 671px; */
     padding-left: 195px;
 }
 
@@ -428,7 +428,7 @@ td {
 
 /* bmi second side design  */
 .bmi-second-side {
-    width: 577px;
+    width:60%;
 }
 
 .bmi-second-side input,

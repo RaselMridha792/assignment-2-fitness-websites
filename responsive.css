@@ -103,18 +103,19 @@
         gap: 42px;
         margin-left: 20px;
     }
+    .bmi-second-side{
+        width: 100%;
+    }
 
     .bmi-second-side input,
     #gender {
-        width: 250px;
+        width: 45%;
         height: 48px;
         margin: 5px;
     }
     .input-5th{
-        width: 515px;
-    }
-    .bmi-text p{
-        width: 450px;
+        /* width: 515px; */
+        width: 92%;
     }
     /* meet our team section design start here  */
     .team-image-container {
