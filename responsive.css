@@ -5,6 +5,11 @@
         flex-direction: column;
         gap: 5px;
     }
+    .banner-content {
+        width: 100%;
+        padding-left: 20px;
+        height: 100%;
+    }
 
     .banner-img-container {
         margin-bottom: 0px;
@@ -17,7 +22,6 @@
 
     .banner-title {
         font-size: 3.25rem;
-        width: 300px;
     }
 
     .nav-items {
@@ -132,8 +136,15 @@
     /* footer section style here  */
     .footer-container{
         flex-direction: column;
-        margin-left: 20px;
+        padding-left: 30px;
         gap: 30px;
+    }
+    .footer-first-section {
+        width: 90%;
+    }
+    .footer-second-section-container{
+        flex-direction: column;
+        gap: 50px;
     }
 
     /* exercise section start here  */
@@ -242,6 +253,18 @@
             gap: 42px;
             margin-left: 20px;
         }
+        .bmi-second-side {
+            width:100%;
+        }
+        .bmi-second-side input,
+        #gender {
+            width: 45%;
+            height: 48px;
+            margin: 5px;
+        }
+        .input-5th{
+            width: 92%;
+        }
             /* meet our team section design start here  */
     .team-image-container {
         display: grid;
@@ -253,8 +276,11 @@
     /* footer section style here  */
     .footer-container{
         flex-direction: column;
-        margin-left: 50px;
+        padding-left: 50px;
         gap: 30px;
+    }
+    .footer-first-section {
+        width: 90%;
     }
 
     /* exercise section design here  */
