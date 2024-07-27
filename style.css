@@ -66,7 +66,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 57px;
+    padding-top: 40px;
 }
 
 .nav-item {
@@ -390,14 +390,16 @@ body {
     margin: 100px 0px;
 
 }
-
+.hidden-para{
+    display: none;
+}
 
 .bmi-first-side table,
 tr,
 td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
-    padding: 15px 20px;
+    padding: 12px 10px;
 }
 
 .bmi-table thead {
@@ -410,7 +412,7 @@ td {
     color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: 900;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .bmi-child-container {

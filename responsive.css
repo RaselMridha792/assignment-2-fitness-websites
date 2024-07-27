@@ -101,6 +101,12 @@
     .bmi-text {
         padding: 20px;
     }
+    .bmi-text-p{
+        display: none;
+    }
+    .hidden-para{
+        display: block;
+    }
 
     .bmi-child {
         flex-direction: column;
