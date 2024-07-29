@@ -37,11 +37,16 @@ body {
     margin: 0 auto;
 
 }
-
+@font-face {
+    font-family: 'Miama';
+    src: url('./font/Miama.otf') format('woff2'),
+         url('./font/Miama.ttf') format('woff');
+}
 .shape-text {
     font-family: "Dancing Script", cursive;
+    font-family: 'Miama', sans-serif;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 4.875rem;
 }
 
 /* shared style  */
@@ -49,7 +54,8 @@ body {
 /* header section style  */
 
 .header-container {
-    max-width: 1440px;
+    /* max-width: 1440px;
+    margin: 0 auto; */
     height: 100%;
     background-image: linear-gradient(rgb(22, 22, 22), rgb(35, 35, 35), rgb(9, 9, 9));
 }
@@ -169,7 +175,7 @@ body {
 /* image size boxes style  */
 .first-transparent-box,
 .second-transparent-box {
-    position: absolute;
+    position: relative;
     height: 96px;
     width: 206px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -178,14 +184,15 @@ body {
     align-items: center;
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(20px);
-    top: 510px;
-    right: 400px;
+    top: 511px;
+    right: 120px;
 }
 
 .second-transparent-box {
-    background: rgba(255, 255, 255, 0.1);
-    top: 250px;
-    right: 40px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+    top: -460px;
+    right: -214px;
     flex-direction: column;
     align-items: start;
     justify-content: center;
@@ -384,10 +391,10 @@ body {
 }
 
 .bmi-container {
-    max-width: 1440px;
     height: 100%;
     background: rgb(34, 34, 34);
     margin: 100px 0px;
+    margin: 0 auto;
 
 }
 .hidden-para{
