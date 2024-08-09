@@ -37,25 +37,12 @@ body {
     margin: 0 auto;
 
 }
-@font-face {
-    font-family: 'Miama';
-    src: url('./font/Miama.otf') format('woff2'),
-         url('./font/Miama.ttf') format('woff');
-}
-.shape-text {
-    font-family: "Dancing Script", cursive;
-    font-family: 'Miama', sans-serif;
-    font-weight: 400;
-    font-size: 4.875rem;
-}
 
 /* shared style  */
 
 /* header section style  */
 
 .header-container {
-    /* max-width: 1440px;
-    margin: 0 auto; */
     height: 100%;
     background-image: linear-gradient(rgb(22, 22, 22), rgb(35, 35, 35), rgb(9, 9, 9));
 }
@@ -135,12 +122,15 @@ body {
     height: 100%;
     width: 100%;
 }
-
+.shape-text {
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+}
 .banner-title {
     color: rgb(255, 255, 255);
     font-size: 4.875rem;
     font-weight: 800;
-    /* margin-top: 90px; */
+    line-height: 120%;
 }
 
 .banner-description {
@@ -151,6 +141,9 @@ body {
 .banner-btn {
     display: flex;
     gap: 24px;
+}
+.primary-btn:hover{
+    color: black;
 }
 
 .primary-btn,
@@ -234,7 +227,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: 100px 0px;
+    margin-bottom: 100px;
 }
 
 .habbit-image-container {
@@ -316,7 +309,7 @@ body {
     display: none;
 }
 
-/* training section start here  */
+/* , section start here  */
 .training-container {
     margin: 100px 0px;
 }
@@ -379,7 +372,6 @@ body {
 /* bmi section start here  */
 .bmi-text {
     margin: 80px 0px;
-    /* width: 671px; */
     padding-left: 195px;
 }
 
@@ -450,6 +442,9 @@ td {
     border: none;
 
 }
+.bmi-second-side select:hover{
+    color: black;
+}
 
 .input-5th {
     display: block;
@@ -463,7 +458,7 @@ td {
 
 .bmi-second-side input,
 select {
-    color: rgb(8, 8, 8);
+    color: rgba(255, 255, 255, 0.302);
     font-size: 16px;
     font-weight: 400;
     padding: 10px;
@@ -493,7 +488,8 @@ select {
 }
 
 .meet-content {
-    width: 671px;
+    width: 60%;
+    margin-top: 80px;
 }
 
 .meet-content h1 {

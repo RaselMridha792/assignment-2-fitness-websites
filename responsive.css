@@ -14,6 +14,13 @@
     .banner-img-container {
         margin-bottom: 0px;
     }
+    .banner-btn {
+        gap: 10px;
+    }
+    .primary-btn, .secondary-btn{
+        width: 180px;
+        padding: 16px 20px;
+    }
 
     .nav-menu-container {
         margin: 0px 20px;
@@ -41,7 +48,8 @@
     .second-transparent-box {
         position: relative;
         top: -500px;
-        left: 220px;
+        left: 190px;
+        width: 180px;
     }
 
     /* your habbit section responsive design  */
@@ -132,12 +140,8 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .meet-content{
-        width: 500px;
-    }
-    .team-image{
-        width: 500px;
-        height: 460px;
+    .meet-content {
+        width: 90%;
     }
     /* footer section style here  */
     .footer-container{
@@ -155,19 +159,24 @@
 
     /* exercise section start here  */
     .training-container{
-        margin: 50px 20px;
+        margin: 50px 5px;
+        padding: 5px 10px;
     }
     .training-images3, .training-images6{
         display: none;
     }
     .training-images4, .training-images2{
-        width: 250px;
+        width: 200px;
+        background-position: center;
+    }
+    .training-images1{
+        width: 180px;
     }
     .training-content{
-        width: 450px;
+        width: 400px;
     }
     .training-images5{
-        width: 230px;
+        width: 180px;
     }
     /* extra section design start here  */
 
@@ -224,7 +233,7 @@
     }
 
     .habbit-description {
-        width: 500px;
+        width: 98%;
     }
 
 
@@ -251,7 +260,7 @@
     }
         /* bmi section design  */
         .bmi-text {
-            padding: 20px;
+            padding: 10px;
         }
     
         .bmi-child {
