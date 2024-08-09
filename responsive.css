@@ -63,7 +63,10 @@
     }
 
     .habbit-description {
-        width: 100%;
+        width: 90%;
+    }
+    .habbit-title{
+        font-size: 2.25rem;
     }
 
     /* run extra section  */
@@ -72,7 +75,7 @@
         width: 90%;
         height: 100%;
         margin: 20px;
-        gap: 31px;
+        gap: 0px;
     }
 
     .run-extra-content {
@@ -98,19 +101,31 @@
 
     .run-extra-img {
         margin: 33px;
+        margin-top: 5px;
+    }
+    .run-extra-title {
+        font-size: 2.5rem;
+        font-weight: 800;
     }
 
     .run-extra-img img {
-        /* width: 450px; */
-        width: 100%;
+        width: 287px;
+        height: 170px;
     }
 
     /* bmi section design  */
+    .bmi-btn{
+        width: 250px;
+    }
     .bmi-text {
         padding: 20px;
+        margin: 20px 0px;
     }
     .bmi-text-p{
         display: none;
+    }
+    .bmi-text h1{
+        font-size: 2.25rem;
     }
     .hidden-para{
         display: block;
@@ -143,6 +158,9 @@
     .meet-content {
         width: 90%;
     }
+    .meet-content h1{
+        font-size: 2.25rem;
+    }
     /* footer section style here  */
     .footer-container{
         flex-direction: column;
@@ -160,7 +178,14 @@
     /* exercise section start here  */
     .training-container{
         margin: 50px 5px;
+        margin-bottom: 10px;
         padding: 5px 10px;
+    }
+    .training-content h1 {
+        font-size: 2.50rem;
+    }
+    .training-box {
+        height: 120px;
     }
     .training-images3, .training-images6{
         display: none;
