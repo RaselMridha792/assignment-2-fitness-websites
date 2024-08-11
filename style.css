@@ -110,6 +110,7 @@ body {
     display: flex;
     align-items: center;
     gap: 167px;
+    margin-bottom: 100px;
 }
 
 .banner-content {
@@ -165,9 +166,12 @@ body {
 }
 
 /* image size boxes style  */
+.banner-img-container{
+    position: relative;
+}
 .first-transparent-box,
 .second-transparent-box {
-    position: relative;
+    position: absolute;
     height: 96px;
     width: 206px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -176,15 +180,15 @@ body {
     align-items: center;
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(20px);
-    top: 511px;
-    right: 120px;
+    top: 418px;
+    right: 271px;
 }
 
 .second-transparent-box {
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(20px);
-    top: -460px;
-    right: -214px;
+    top: 127px;
+    right: -83px;
     flex-direction: column;
     align-items: start;
     justify-content: center;
