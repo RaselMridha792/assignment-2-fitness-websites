@@ -221,6 +221,9 @@
 @media screen and (min-width: 577px) and (max-width: 768px) {
 
     /* header section responsive  */
+    .banner-content{
+        width: 90%;
+    }
     .banner-container {
         flex-direction: column;
         gap: 5px;
@@ -258,7 +261,8 @@
     }
 
     .habbit-description {
-        width: 98%;
+        width: 60%;
+        margin: 0 auto;
     }
 
 
@@ -286,6 +290,9 @@
         /* bmi section design  */
         .bmi-text {
             padding: 10px;
+        }
+        .bmi-text p{
+            width: 80%;
         }
     
         .bmi-child {
@@ -328,14 +335,14 @@
         width: 250px;
     }
     .training-images2{
-        width: 300px;
+        width: 250px;
         background-position: center;
     }
     .training-images4{
         width: 300px
     }
     .training-images6{
-        width: 250px;
+        width: 210px;
     }
     .training-container {
         margin: 100px 30px;
